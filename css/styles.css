@@ -104,3 +104,54 @@ body{
 .rodepe_texto{
     font-size: 25px;
 }
+/* BREAKPOINT DO CABEÇALHO */ 
+@media(max-width:1088px){
+    .cabecalho{
+        flex-direction: column;
+        background-color: black;
+    }
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+    .cabecalho__texto{
+        color: white;
+        font-size: 10px;
+    }
+}
+
+/* BREAKPOINT DO CABEÇALHO */
+
+
+
+/* BREAKPOINT DO MAIN */
+@media (max-width:820px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .imagem{
+        width: 66%;
+    }
+    .secundario{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .imagem2{
+        width: 69%;
+    }
+     .secundaria{
+        width: 75%;
+     }
+}
+
+/* BREAKPOINT DO MAIN */
+
+
+/* BREAKPOINT DO RADAPE */
+@media (max-width:772px){
+    .rodape__rm{
+        flex-direction: column;
+    }
+    
+}
