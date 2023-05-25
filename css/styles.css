@@ -132,14 +132,14 @@ body{
         margin: 2em 2em;
     }
     .imagem{
-        width: 66%;
+        width: 70%;
     }
     .secundario{
         flex-direction: column-reverse;
         text-align: center;
     }
     .imagem2{
-        width: 69%;
+        width: 70%;
     }
      .secundaria{
         width: 75%;
