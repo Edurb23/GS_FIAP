@@ -80,6 +80,7 @@ body{
 .imagem2{
     border-radius: 5px;
     width: 40%;
+    border: solid 2px #5F9EA0;
 }
 .descricao_titulo:hover{
     color: #008B8B;
