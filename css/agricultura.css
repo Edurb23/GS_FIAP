@@ -32,3 +32,41 @@ h1{
     color: white;
     margin: 0.4em;
 }
+
+@media(max-width:820px){
+    .container_tech{
+        flex-direction: column;
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .imagem_game{
+        width: 66%;
+    }
+    .secundario{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .imagem_game2{
+        width: 69%;
+    }
+     .secundaria{
+        width: 75%;
+     
+    }
+
+    .imagem_game3{
+        width: 69%;
+    }
+}
+
+@media(max-width:900px){
+    .container_tech{
+        flex-direction: column;
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .imagem_game3{
+        width: 42%;
+    }
+    
+}
