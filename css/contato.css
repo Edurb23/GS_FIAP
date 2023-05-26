@@ -154,3 +154,13 @@ button:hover{
     padding-bottom: 70px;
 }
 
+
+
+@media (max-width:420px) {
+
+    #date{
+        height: 30%;
+    }
+    
+}
+
