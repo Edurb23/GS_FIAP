@@ -1,0 +1,166 @@
+
+
+.form{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#5F9EA0;
+    width: 500px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 4%;
+    margin-top: 15px;
+    margin-bottom: 9%;
+    border: solid 3px darkcyan;
+}
+
+input{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    color:#465cb4;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#motivo{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    color:#465cb4;
+    border: none;
+    height: 45px;
+
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.selecionar-motivo{
+    margin-top: 3%;
+}
+
+.selecionar-area{
+    margin-top: 3%;
+}
+
+#Estado{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    color:#465cb4;
+    border: none;
+    height: 45px;
+
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#Cidade{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    color:#465cb4;
+    border: none;
+    height: 45px;
+
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#txt{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    color:#465cb4;
+    border: none;
+    height: 150px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+#email, #name, #phone, #date{
+    width: 100%;
+}
+
+
+select{
+    width: 100%;
+}
+ textarea{
+    width: 100%;
+}
+
+ button{
+width: 100%;
+}
+label{
+    color: #072806;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #073d1f;
+    border-radius: 10px;
+    border:solid 1px #000000;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+button:hover{ 
+    background-color: #EFEFEF;
+    color: #42855B;
+    border: none;
+    height: 40px;
+    box-shadow: 3px 3px 2px gray;
+}
+.titulo{
+    color: #008B8B;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 20px;
+    margin-top: 84px;
+    margin-bottom: 5px;
+    
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.contato-forms{
+    display: flex;
+    width: 40%;
+    margin-left: 20px;
+    justify-content: center;
+}
+.contato-image{
+    margin-right: 200px;
+}
+.mario-img{
+    width: 380px;
+    margin-left: 240px;
+    padding-bottom: 70px;
+}
+
+
+
+@media (max-width:420px) {
+
+    #date{
+        height: 30%;
+    }
+    
+}
+

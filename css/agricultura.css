@@ -1,0 +1,52 @@
+h1{
+    font-size: 3rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+
+.imagem_agro{
+    width: 22%;
+    border-radius: 5px;
+}
+
+.container_agro{
+    display: flex;
+    align-items: center;
+    margin: 4.5em 9em;
+}
+.container__descricao{
+    padding: 15%;
+}
+.descricao_titulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+    margin: 0.4em;
+}
+.descricao_texto{
+    font-size: 15px;
+    font-family:'Krona One', sans-serif;
+    color: white;
+    margin: 0.4em;
+}
+
+
+@media (max-width:820px){
+    .container_agro{
+        flex-direction: column;
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .imagem_agro{
+        width: 40%;
+    }
+    .secundario{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+   
+}
