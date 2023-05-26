@@ -12,8 +12,8 @@
     padding: 10px;
     border-radius: 4%;
     margin-top: 15px;
-    margin-left: 29%;
     margin-bottom: 9%;
+    border: solid 3px darkcyan;
 }
 
 input{
@@ -127,20 +127,23 @@ button:hover{
 }
 .titulo{
     color: #008B8B;
+    text-align: center;
     font-size: 40px;
     padding: 0px 20px;
     margin-top: 84px;
     margin-bottom: 5px;
-    margin-right: 65%;
+    
 }
 
 .main-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .contato-forms{
+    display: flex;
     width: 40%;
     margin-left: 20px;
+    justify-content: center;
 }
 .contato-image{
     margin-right: 200px;
@@ -151,13 +154,3 @@ button:hover{
     padding-bottom: 70px;
 }
 
-.Text_aviso{
-    font-size: 47px;
-    font-weight: bolder;
-    color: #008B8B;
-    margin-left: 193px;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-
-    
-}
