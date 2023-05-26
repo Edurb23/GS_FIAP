@@ -1,3 +1,4 @@
+
 @import url('./modelosCultivos.css');
 @import url('./sobreNos.css');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap%27');
@@ -45,6 +46,7 @@ body{
 .imagem{
     width: 40%;
     border-radius: 5px;
+    border: solid 2px #5F9EA0;
 }
 
 
@@ -78,6 +80,7 @@ body{
 .imagem2{
     border-radius: 5px;
     width: 40%;
+    border: solid 2px #5F9EA0;
 }
 .descricao_titulo:hover{
     color: #008B8B;
