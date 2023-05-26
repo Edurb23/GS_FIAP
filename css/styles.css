@@ -1,3 +1,5 @@
+
+@import url('./modelosCultivos.css');
 @import url('./sobreNos.css');
 @import url('./agricultura.css');
 @import url('./contato.css');
@@ -46,6 +48,7 @@ body{
 .imagem{
     width: 40%;
     border-radius: 5px;
+    border: solid 2px #5F9EA0;
 }
 
 
@@ -79,6 +82,7 @@ body{
 .imagem2{
     border-radius: 5px;
     width: 40%;
+    border: solid 2px #5F9EA0;
 }
 .descricao_titulo:hover{
     color: #008B8B;
@@ -133,14 +137,14 @@ body{
         margin: 2em 2em;
     }
     .imagem{
-        width: 66%;
+        width: 70%;
     }
     .secundario{
         flex-direction: column-reverse;
         text-align: center;
     }
     .imagem2{
-        width: 69%;
+        width: 70%;
     }
      .secundaria{
         width: 75%;
