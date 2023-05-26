@@ -1,0 +1,29 @@
+h1{
+    font-size: 3rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    color:  #008B8B;
+    padding: 3%;
+}
+
+
+
+@media (max-width:1404px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagem{
+        width: 50px
+    }
+   
+
+
+
+
+
+
+
+
+
+}

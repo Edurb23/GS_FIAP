@@ -16,3 +16,8 @@
     padding: 8px;
 
 }
+.time{
+    width: 20%;
+    border-radius: 5%;
+    border: solid 3px black;
+}
